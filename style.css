@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    max-width: 70vw;
+    display: flex;
+    margin: 5rem auto;
+    align-items: center;
+}
+figure img{
+    width: 30vw;
+}
+.content{
+    padding: 0 2rem;
+    /* border: 2px solid green; */
+}
+.content header{
+    margin-bottom: 0.1rem;
+    color: rgb(9, 91, 158);
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 4px;
+}
+.deadline-details, .expired{
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+.text{
+    margin-bottom: 1.5rem;
+    font-weight: lighter;
+    text-align: justify;
+    font-size: 0.85rem;
+    color: gray;
+}
+.countdown{
+    display: flex;
+}
+.time-style{
+    margin: 0 1rem 1rem 0;
+    min-width: 5vw;
+    padding: 0.3rem 0;
+    background-color: rgb(3, 45, 77);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.time h5{
+    padding-top: 0.1rem;
+}
+
+
+
+
